@@ -25,7 +25,7 @@ def jump_search(arr, val):
         if arr[step] == val:
             found = True
             break
-        step += 1
+        step -= 1
 
     else:
         return found
